@@ -16,7 +16,7 @@
 #define DEBUG_LOG			0
 #define SUCCESS				0
 
-#define TW_SCL_PIN			PORTC5
+#define TW_SCL_PIN			LOPORTIO
 #define TW_SDA_PIN			PORTC4
 
 #define TW_SLA_W(ADDR)		((ADDR << 1) | TW_WRITE)
